@@ -1,5 +1,5 @@
 body{
-	font-family:  'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-family:  "Helvetica CY", "Nimbus Sans L", Arial, sans-serif;
 	color: #000; 
 	background: #fff;
 	font-size: 16px;
@@ -8,6 +8,150 @@ body{
 }
 .container{
 	min-width: 320px;
-	max-width: 1170px;	
+	max-width: 960px;	
 	margin: 0 auto;
 }
+h1,h2{
+	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.logo{
+	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-size: 36px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.logo span{
+	display: inline-block;
+	color: #f03c3c;
+} 
+.form-search{
+	width: 202px;
+	padding: 0;
+	margin: 5px 20px 0 0;
+	float: right;
+}
+.form-search span{
+	display: block;		
+	text-align: left;
+	position: relative;
+	opacity: 0.6;
+}
+.form-search span::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right:  12px;
+	width: 14px;
+	height: 100%;
+	background: url(../img/tech-page/ic-form-seach.png) 50% 50% no-repeat;
+	opacity: 0.6;
+}
+.form-search input[type="search"]{
+	width: 100%;
+	padding: 9px 0 9px 9px;
+	font-size: 12px;
+	border: 1px solid #d2d2d2;
+	text-align: left;
+	color: #d2d2d2;
+}
+.form-search input:focus{
+	border: 1px solid #ccc;
+}
+
+.seach-form .seach-field i{
+	 position: absolute;
+	 top: 0;
+	 right:  0;
+	 width: 32px;
+	 height: 100%;
+	 background-position: 50% 50%;
+	 background-repeat: no-repeat;
+	 background-image:url(../img/seachf.png);
+	 background-color: #202021;
+	 opacity: 0.6;
+	 box-sizing: border-box;
+}
+.seach-form .seach-field input:focus{
+ 	border-color: #737070; 
+}
+.seach-form .seach-field input:focus + i{
+	 opacity: 1;	 
+}
+.menu{
+	display: block ;
+	position: static;
+	width: auto;
+	background: transparent;
+	float: left;
+	padding: 0 0 0 60px;
+	margin: 0;
+}
+.menu ul{	
+	padding:  0;	
+	list-style: none;
+	margin: 0;	
+}
+.menu li{
+	display: inline-block;
+	margin: 0;
+	padding-right: 21px;
+}
+.menu li a{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #494949;
+	margin: 0;
+	padding: 0 0 3px 0;
+}
+.menu li a:hover{
+	border-top: 1px solid #f47c7c;
+	color: #f47c7c;
+}
+.menu-btn{
+	float: left;
+	width: 70px;
+	height: 70px;
+	background: #36aeea;
+	position: relative;
+	margin: 0 20px;
+	display: none;		
+}
+.menu-btn span{
+	width: 18px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1px  0 0 -9px;
+}
+.menu-btn span::before,.menu-btn span::after{
+	content: "";
+	width: 18px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+}
+.menu-btn span::before{
+ 	top: -5px;
+}
+.menu-btn span::after{
+ 	bottom: -5px;
+}
+.menu-btn .is-active span{
+ 	background: transparent;
+}
+.menu-btn .is-active::before{
+ 	transform: rotate(45deg);
+ 	top: 0;
+}
+.menu-btn .is-active::after{
+ 	transform: rotate(90deg);
+ 	bottom: 0;
+}
+
