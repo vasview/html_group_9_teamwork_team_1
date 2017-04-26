@@ -11,7 +11,7 @@ body{
 	max-width: 960px;	
 	margin: 0 auto;
 }
-h1,h2{
+h1,h2,h3{
 	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 }
 .top-head{
@@ -149,3 +149,73 @@ h1,h2{
  	bottom: 0;
 }
 
+.contact-block h3 {
+  font-size: 30px;
+  font-weight: normal;
+  color: 000;
+}
+.contact-block p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #464646;
+}
+.map-block {
+  height: 400px;
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom: 34px;
+  border: 1px solid red;
+}
+.form-block {
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+}
+.form-block .form-row {
+  margin-bottom: 10px;
+}
+.form-row input[type='text'],
+.form-row input[type='email'] {
+  padding: 13px 15px 10px;
+  width: 218px;
+  height: 35px;
+ }
+.form-row textarea {
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row textarea {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  color: #c6c6c6;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.form-row textarea {
+  width: 493px;
+  height: 205px;
+  resize: none;
+}
+.form-row button {
+  padding-left: 20px;
+  background: #fefefe;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #474747;
+  text-transform: capitalize;
+  position: relative;
+}
+.form-row button::before {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 9px;
+  top: 5px;
+  left: 0;
+  background: url(../img/ic_double_arrow.png) 0 0 no-repeat;
+}
