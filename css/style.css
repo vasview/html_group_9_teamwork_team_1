@@ -196,7 +196,7 @@ h1,h2,h3{
   text-transform: uppercase;
 }
 .form-row textarea {
-  width: 493px;
+  width: 100%;
   height: 205px;
   resize: none;
 }
