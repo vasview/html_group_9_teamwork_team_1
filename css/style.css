@@ -14,6 +14,9 @@ body{
 h1,h2{
 	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 }
+.top-head{
+	padding: 0 0 23px 0;
+}
 .logo{
 	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 	font-size: 36px;
@@ -57,35 +60,20 @@ h1,h2{
 	color: #d2d2d2;
 }
 .form-search input:focus{
-	border: 1px solid #ccc;
+	border: 1px solid #7e897f;
+	opacity: 1;
 }
-
-.seach-form .seach-field i{
-	 position: absolute;
-	 top: 0;
-	 right:  0;
-	 width: 32px;
-	 height: 100%;
-	 background-position: 50% 50%;
-	 background-repeat: no-repeat;
-	 background-image:url(../img/seachf.png);
-	 background-color: #202021;
-	 opacity: 0.6;
-	 box-sizing: border-box;
-}
-.seach-form .seach-field input:focus{
- 	border-color: #737070; 
-}
-.seach-form .seach-field input:focus + i{
-	 opacity: 1;	 
+.head_menu{
+	border-top: 1px solid #f8f8f8;
+	padding: 17px 0 0 0;
 }
 .menu{
-	display: block ;
+	display: block;
 	position: static;
 	width: auto;
 	background: transparent;
 	float: left;
-	padding: 0 0 0 60px;
+	padding: 0;
 	margin: 0;
 }
 .menu ul{	
@@ -96,7 +84,14 @@ h1,h2{
 .menu li{
 	display: inline-block;
 	margin: 0;
-	padding-right: 21px;
+	padding: 0;	
+	border-left: 1px solid  #f8f8f8;
+}
+.menu li:first-child{
+	border-left:none;
+}
+.menu li:last-of-type{
+	border-right: 1px solid  #f8f8f8;
 }
 .menu li a{
 	font-size: 14px;
@@ -104,8 +99,7 @@ h1,h2{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #494949;
-	margin: 0;
-	padding: 0 0 3px 0;
+	padding: 19px 21px 19px 15px;	
 }
 .menu li a:hover{
 	border-top: 1px solid #f47c7c;
