@@ -152,7 +152,8 @@ h1,h2,h3{
 section.contact-block {
 	padding: 28px 0 0 0; 
 }
-.contact-block h3 {
+.contact-block h3,
+.sm-items-block h3 {
 	font-size: 30px;
 	font-weight: normal;
 	color: #000;
@@ -409,8 +410,31 @@ footer .text-block p {
 	background-position: -55px 0;
 }
 
+.sm-items-block{
+	margin: 0;
+	padding: 0;
+}
+.sm-items-block h3 {
+	margin-bottom: 40px;
+}
+.sm-items-block .sm-items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+} 
+.sm-items-block .sm-items .article-blog{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.sm-items-block .sm-items .article-blog:not(:last-child){
+	margin-right: 20px;
+}
 .article-blog .sm-article{
 	position: relative;
+}
+.article-blog .sm-article .img-wrap {
+	height: 184px;
+	overflow: hidden;
 }
 .article-blog .sm-article-url{
 	display: block;
