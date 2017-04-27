@@ -11,3 +11,11 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'ChunkFive Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ChunkFive Roman'), local('ChunkFive-Roman'),
+        url(http://allfont.ru/cache/fonts/chunkfive_9c346ae5b3f43141562ac5431bf97b13.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/chunkfive_9c346ae5b3f43141562ac5431bf97b13.ttf) format('truetype');
+}

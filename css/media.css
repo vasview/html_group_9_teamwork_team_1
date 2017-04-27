@@ -1,3 +1,32 @@
-@media screen and  (min-width:  680px){
-	
- 
+@media screen and  (max-width:  420px){
+	.form-search{
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+	.form-search span::after{
+		top: 79%;
+	}
+	.menu{
+		display: none;
+		width: 200px;
+		background: #f8f8f8;
+		position: absolute;
+		top:195px;
+		left:  10px;
+		z-index: 10;	
+	}
+	.menu li {
+		display: block;
+	}	
+	.menu li a{
+		display: block;
+		padding: 15px 10px;
+		color: #000;
+	}
+	.menu li:first-child a{
+ 		border-top: none;
+	}
+	.menu-btn{
+		display: block;	
+	}
