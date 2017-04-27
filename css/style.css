@@ -299,7 +299,7 @@ footer .text-block p {
 .article-blog article{
 	width: 220px;
 	height: auto;
-	border: 1px solid #dbdbdb;
+	
 
 }
 .article-blog article .img-wrap{
@@ -309,22 +309,28 @@ footer .text-block p {
 .article-blog article img{
 	width: 100%;
 	height: auto;
+	display: block;
 }
 .article-blog article .txt-wrap{
-	padding: 0 14px 17px;
+	padding: 11px 14px 0;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
 }
 .article-blog article h6{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	color: #2e2e2e;
-	margin: 8px 0 -5px 0;
+	margin: 0 0 -5px;
 }
 .article-blog article .article-info{
+	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	font-weight: 600;
 	color: #8a8a8a;
+	margin-bottom: 13px;
 }
 .article-blog article p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -332,15 +338,18 @@ footer .text-block p {
 	font-weight: normal;
 	line-height: 18px;
 	color: #2f2f2f;
-	margin: 12px 0 11px 0;
+	margin: 0 0 12px;
+	padding: 0;
 }
 .article-blog article .btn{
+	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	font-weight: 600;
 	color: #2e2e2e;
 	text-decoration: none;
 	margin-left: 2px;
+	margin-bottom: 17px;
 }
 .article-blog article .btn:before{
 	content: '';
