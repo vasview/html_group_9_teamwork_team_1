@@ -13,6 +13,10 @@ body{
 }
 h1,h2,h3{
 	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
 }
 .top-head{
 	padding: 0 0 23px 0;
@@ -292,8 +296,19 @@ footer .text-block p {
 	font-weight: 400;
 	margin: 0;
 }
+.article-blogs{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around; 	
+}
 .article-blog{
-	margin: 50px auto;
+	margin: 50px 1% 10px  0 ;
+	width: 24%;
 }
 .article-blog article{
 	width: 220px;
