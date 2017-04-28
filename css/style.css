@@ -153,7 +153,8 @@ section.contact-block {
 	padding: 28px 0 0 0; 
 }
 .contact-block h3,
-.sm-items-block h3 {
+.sm-items-block h3,
+.blog-item h3 {
 	font-size: 30px;
 	font-weight: normal;
 	color: #000;
@@ -291,17 +292,12 @@ footer .text-block p {
 	font-weight: 400;
 	margin: 0;
 }
-
-
-
 .article-blog{
 	margin: 50px auto;
 }
 .article-blog article{
 	width: 220px;
 	height: auto;
-	
-
 }
 .article-blog article .img-wrap{
 	position: relative;
@@ -510,6 +506,42 @@ footer .text-block p {
 .home_nav li a:hover{
 	color: #f47c7c;
 }
+.blog-article {
+	padding: 13px 0 0;
+}
+.blog-article .img-box {
+	width: 57.5%;
+	min-width: 320px;
+	float: left;
+}
+.blog-article .img-box img {
+	width: 100%;
+	height: auto;
+}
+.blog-article .info-box {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 42.5%;
+	min-width: 320px;
+	float: left;
+}
+.blog-article .info-box .post-info {
+	width: 32%;
+	float: left;
+	line-height: 20px;
+}
+.blog-article .info-box p {
+	color: #000;
+	line-height: 18px;
 
-
-
+}
+.blog-article .info-box .post-info p{
+	color: #464646;
+	margin: -2px 0 0;
+}
+.blog-article .info-box .post-info span {
+	color: #f03c3c;
+}
+.blog-item .info-box {
+	font-size: 12px;
+	padding: 0 0 0 39px;
+}
