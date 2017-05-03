@@ -10,9 +10,6 @@ $(document).ready(function(){
 				},600)			
 			}		
 		});
-	$('.article-blogs').masonry({
-  // options
-  itemSelector: '.article-blog'
-});
+	
 
 });
