@@ -12,15 +12,11 @@ body{
 	margin: 0 auto;
 }
 h1,h2,h3{
-<<<<<<< HEAD
 	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 	font-size: 30px;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: center;
-=======
-	font-family: 'chunkfiveroman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
->>>>>>> b1d1951d87fc7e214ed7ed31e8d3faddbdf9ce2a
 }
 .top-head{
 	padding: 0 0 23px 0;
