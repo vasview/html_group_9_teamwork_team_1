@@ -2,13 +2,13 @@
 @media screen and  (max-width:  840px){
 	.article-blogs{
 		column-count: 3;
-		column-gap: 10px;					 	
+		column-gap: 10px;			 	
 	}	
 }
 @media screen and  (max-width:  620px){
 	.article-blogs{
 		column-count: 2;
-		column-gap: 10px;				 	
+				 	
 	}	
 	.article-blog{		
 		margin: 0 0 10px;
@@ -59,11 +59,12 @@
 	}
 	.article-blogs{
 		column-count: 1;
-		margin: 0  0 10px 15%;	
-		text-align: center;		 	
+		margin: 0  0 10px 0;			 	
 	}	
 	.article-blog{
-		width: 90%;
+		display: block;
+		width: 70%;
+		margin: 0 auto;
 	}
 	.soc-block, .text-block {
 		width: 100%;
