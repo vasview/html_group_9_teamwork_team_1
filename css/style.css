@@ -155,6 +155,128 @@ h1,h2,h3{
 	transform: rotate(90deg);
 	bottom: 0;
 }
+.slider-block {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.slider-item {
+  position: relative;
+}
+.slider-item__row {
+/*	overflow: hidden;*/
+	margin-bottom: 6px;
+}
+.slider__img-wrapper {
+	height: 100%;
+	width: auto;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.slider__img-wrapper:not(:last-child){
+	margin-right: 2px;
+}
+.slider-item__row--top {
+	height: 74px;
+	width: auto;
+	box-sizing: border-box;
+	padding: 0;
+}
+.slider__img-wrapper img {
+	display: block;
+	height: 100%;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+.slider-item__row--middle {
+	height: 299px;
+	width: auto;
+	box-sizing: border-box;
+}
+.slider-item__midsubrow {
+	float: left;
+}
+.slider-item__midsubrow:last-child {
+	margin-left: 4px;
+}
+.slider__title {
+	width: 307px;
+	font-size: 30px;
+	text-align: center;
+	padding: 0;
+	font-family: impact, sans-serif;
+}
+.slider__title--middle {
+	display: block;
+	margin: 0;
+	height: 110px;
+	line-height: 110px;
+	color: rgb(63, 115, 17);
+	background-color: rgb(31, 213, 28);
+	text-shadow: 0 -1px 2px rgb(36, 153, 22);
+}
+.slider-item__row--bottom {
+	height: 116px;
+	width: auto;
+	overflow: hidden;
+}
+.slider__title--bottom {
+	float: left;
+	height: 116px;
+	margin: 0 6px 0 0;
+	line-height: 116px;
+	color: rgb(135, 21, 1);
+	background-color: rgb(254, 92, 63);
+	text-shadow: 0 0 2px rgb(224, 224, 224);
+}
+.slider__txt-block {
+	width: 294px;
+	height: 195px;
+	background: rgba(1, 1, 1, 0.5);
+	position: absolute;
+	top: 166px;
+	left: 314px;
+}
+.slider__arrow {
+	width: 92px;
+	height: 74px;
+	position: absolute;
+	top: 175px;
+	border-top: 2px solid rgba(160, 160, 160, 0.5);
+}
+.slider__arrow--previous {
+	background: url(../img/ic_slider_previous.png);
+	left: -15px;
+}
+.slider__arrow--previous::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-right: 22px solid #191919;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	position: absolute;
+	bottom: -14px;
+	left: 0;
+	z-index: -10;
+}
+.slider__arrow--next {
+	background: url(../img/ic_slider_next.png);
+	right: 7px;
+}
+.slider__arrow--next::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 22px solid #191919;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	position: absolute;
+	bottom: -14px;
+	right: 0;
+	z-index: -10; 
+}
 section.contact-block {
 	padding: 28px 0 0 0; 
 }
