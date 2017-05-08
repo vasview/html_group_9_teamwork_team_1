@@ -9,7 +9,35 @@ $(document).ready(function(){
 					$('.is-active').addClass('not-active').removeClass('is-active')
 				},600)			
 			}		
+		});		
+
+			var $grid = $('.article-blogs').isotope({
+		  
 		});
+		
+			$('#blog-filter').on( 'click', 'a', function() {
+		  	var filterValue = $(this).attr('data-filter');
+		  	$grid.isotope({ filter: filterValue });
+		});
+		
+		$('.slider-1').slick({
+    		arrows: true,
+   		});
+});
+
+ 	
 	
 
-});
+	
+  		
+
+	
+		
+       
+    	
+
+
+
+
+	
+
