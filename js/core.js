@@ -20,9 +20,14 @@ $(document).ready(function(){
 		  	$grid.isotope({ filter: filterValue });
 		});
 		
+		$('.slider-1').slick({
+    		arrows: true,
+   		});
+});
+
  	
 	
-});
+
 	
   		
 
