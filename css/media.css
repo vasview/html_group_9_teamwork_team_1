@@ -1,28 +1,25 @@
+@media screen and  (max-width:  960px){
+	.article-blog {    
+    	width: 31%;
+    	padding: 0 5% 20px 0; 
 
-@media screen and  (max-width:  840px){
-	.article-blogs{
-		column-count: 3;
-		column-gap: 10px;			 	
-	}	
-}
-@media screen and  (max-width:  620px){
-	.article-blogs{
-		column-count: 2;
-				 	
-	}	
-	.article-blog{		
-		margin: 0 0 10px;
 	}
+}
+@media screen and  (max-width:  730px){
+	.article-blog {    
+    	width: 48%;
+    	padding: 0 5% 20px 0; 
+	}	
 }
 @media screen and  (max-width:  420px){
+	.logo{
+		margin:  0  0 0 15px;
+	}
 	.form-search{
-		width: 90%;
-		margin: 0 auto;
-		float: none;
-	}
-	.form-search span::after{
-		top: 79%;
-	}
+		width: 80%;
+		float: left;
+		margin: 0  0 0 15px;
+	}	
 	.menu{
 		display: none;
 		width: 200px;
@@ -50,29 +47,30 @@
 		font-size: 20px;
 		margin:  10px 0 10px 0;
 	}
-	.home_nav li{
-		display: block;
-		border-left:none;
-	}
-	.home_nav li:first-child a{
-		padding:  0 5px 0 9px;
-	}
-	.article-blogs{
-		column-count: 1;
-		margin: 0  0 10px 0;			 	
+	.home_nav ul{
+		margin: 0 15px 0 15px;
 	}	
-	.article-blog{
-		display: block;
-		width: 70%;
-		margin: 0 auto;
+	.home_nav li{
+		border: none;
+	}
+	.home_nav li a {
+        padding: 0 5px 0 0;
+    }
+	.article-blogs {    
+    	margin: 67px 0 17px 15px;
+	}
+	.article-blog{		
+		width: 90%;	
+	}
+	.pagination {
+    	margin: 0 0 34px 15px;
 	}
 	.soc-block, .text-block {
 		width: 100%;
-	}
-	.text-block {
-		float: left;		
+		margin: 0 0 0 15px;
 	}
 	footer .text-block {
 		text-align: left;
+		float: left;
 	}
 }

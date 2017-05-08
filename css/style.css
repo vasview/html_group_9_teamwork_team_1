@@ -18,7 +18,7 @@ h1,h2,h3{
 	text-align: center;
 }
 .main-blog h1{
-	padding: 0 0 10px 0;
+	padding: 0 0 12px 0;
 }
 .top-head{
 	padding: 0 0 23px 0;
@@ -72,7 +72,7 @@ h1,h2,h3{
 }
 .head_menu{
 	border-top: 1px solid #f8f8f8;
-	padding: 17px 0 33px 0;
+	padding: 17px 0 11px 0;
 }
 .menu{
 	display: block;
@@ -118,7 +118,7 @@ h1,h2,h3{
 	height: 70px;
 	background: #000;
 	position: relative;
-	margin: 0 20px;
+	margin: 0 15px;
 	display: none;		
 }
 .menu-btn span{
@@ -242,9 +242,9 @@ section.contact-block {
 	left: 0;
 	background: url(../img/ic_double_arrow.png) 0 0 no-repeat;
 }
-footer {
+.footer-wrapper{
 	border-top: 1px solid #ececec;
-	padding: 22px 0 38px;
+	padding: 23px 0 38px;
 }
 .main-blog{
 	margin: 0;
@@ -301,15 +301,19 @@ footer .text-block p {
 	margin: 0;
 }
 .article-blogs{
-	width: 100%;
-	column-count: 4;
-	column-gap: 20px;
-	margin: 0 0 34px 0;	 	
+	width: 100%;	
+	margin:67px 0 17px 0;	
+	/*display: -webkit-flex;
+	 	display: -moz-flex;
+	 	display: -ms-flex;
+	 	display: -o-flex;
+	 	display: flex; 	
+	 	flex-wrap: wrap;*/
 }
 .article-blog{
-	margin: 0 0 20px 0 ;
-	width: 220px;
-	display: inline-block;
+	margin: 0 2% 20px 0 ;
+	width: 23%;
+	display: inline-block;	
 }
 .article-blog article{
 	width: 220px;
@@ -318,7 +322,6 @@ footer .text-block p {
 .article-blog article .img-wrap{
 	position: relative;
 }
-
 .article-blog article img{
 	width: 100%;
 	height: auto;
@@ -459,9 +462,7 @@ footer .text-block p {
 }
 .pagination {
 	display: inline-block;	
-}
-.blog .pagination{
-	margin: 0 0 32px 0;
+	margin: 0 0 34px 0;
 }
 .pagination a {
 	display: inline-block;
