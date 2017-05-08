@@ -567,3 +567,39 @@ footer .text-block p {
 	font-size: 12px;
 	padding: 0 0 0 39px;
 }
+.slider1{
+	width: 939px;
+}
+.slider1  a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.slider1 .col1{	
+	width: 619px;
+	margin: 0 5px 0 0;
+	display: inline-block;	
+}
+.slider1 .col1-inner{
+	width: 100%;
+}
+.slider1 .col1-inner1 {
+	display: inline-block;
+	width: 49.5% ;
+}
+.slider1 .col1-inner2{
+	width: 99.6%;
+}
+.slider1 .col2{
+	width: 306px;
+	margin: 0;
+	display: inline-block;
+}
+
+.slider1 a img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
