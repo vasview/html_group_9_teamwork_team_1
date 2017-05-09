@@ -12,7 +12,7 @@ body{
 	margin: 0 auto;
 }
 h1,h2,h3{
-	font-family:'ChunkFive Roman', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-family:'ChunkFive Roman',s Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 	font-size: 30px;
 	font-weight: normal;	
 	text-align: center;
@@ -436,13 +436,16 @@ footer .text-block p {
 	margin-bottom: 40px;
 }
 .sm-items-block .sm-items{
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 0 0 60px 0;
 } 
 .sm-items-block .sm-items .article-blog{
 	margin-top: 0;
 	margin-bottom: 0;
+	width: 22%;
 }
 .sm-items-block .sm-items .article-blog:not(:last-child){
 	margin-right: 20px;
@@ -572,7 +575,6 @@ footer .text-block p {
 }
 .slider-1{
 	margin: 29px 0 0 0;
-
 }
 .slider1{
 	width: 939px;
@@ -607,7 +609,10 @@ footer .text-block p {
 }
 .slider-big-img{
 	position: relative;
-	text-decoration: none;
+	text-decoration: none;	
+}
+.slider-big-img:hover .img-big-link{
+	transform: scale(1.2);
 }
 .slider1 .img-big-link{
 	text-decoration: none;
@@ -618,6 +623,7 @@ footer .text-block p {
 	right:  10px;
 	background-color:  rgba(37, 45, 40, 0.4);
 	z-index: 100;
+	transform: scale(1);
 }
 .slider1 .img-big-link h6{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
