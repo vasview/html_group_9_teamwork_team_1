@@ -806,11 +806,7 @@ footer .text-block p {
 .info-box__p {
 	color: #000;
 	line-height: 18px;
-<<<<<<< HEAD
 	margin-bottom: 19px;
-=======
-	margin: 5% 0;
->>>>>>> 2716fafedeae4e1d7865c9c8d3f3906c420f2e28
 }
 .blog-article .info-box .post-info p{
 	color: #464646;
@@ -839,7 +835,7 @@ footer .text-block p {
 	background: url("../img/article-elements/btn-more.png") 0 0 no-repeat;
 }
 .blog-item {
-	margin-top: 44px;
+	margin-top: 5px;
 }
 .blog-item .info-box {
 	font-size: 12px;
