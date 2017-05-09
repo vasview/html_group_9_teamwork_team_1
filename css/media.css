@@ -76,6 +76,19 @@
 	}  	 	
 }
 @media screen and  (max-width:  420px){
+	.blog-item {
+		margin: 0;
+	}
+	.blog-article {
+		margin: 29px 0 0 0;
+	}
+	.blog-item .info-box {
+		padding: 0 10px;
+	}
+	.sm-items-block .sm-items .article-blog:not(:last-child) {
+		margin-right: 0;
+	}
+
 	.logo{
 		margin:  0  0 0 15px;
 	}
@@ -148,4 +161,12 @@
 	.article-blog article {
     	width: 310px;
     }
+}
+@media screen and (max-width: 320px){
+	.sm-items-block .sm-items .article-blog {
+		margin: 0;
+	}
+	.sm-items-block .sm-items {
+		padding: 0 4%;
+	}
 }
