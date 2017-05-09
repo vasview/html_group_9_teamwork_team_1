@@ -772,6 +772,9 @@ footer .text-block p {
 .home_nav li a:hover{
 	color: #f47c7c;
 }
+.blog-item{
+	padding-top: 8px;
+}
 .blog-article {
 	padding: 13px 0 0;
     margin: 10px 0 0px 0;
@@ -795,14 +798,19 @@ footer .text-block p {
 	margin: 0 0 17px 0;
 }
 .blog-article .info-box .post-info {
-	width: 32%;
+	width: 33.3333%;
 	float: left;
 	line-height: 20px;
+	padding-bottom: 20px;
 }
 .info-box__p {
 	color: #000;
 	line-height: 18px;
+<<<<<<< HEAD
 	margin-bottom: 19px;
+=======
+	margin: 5% 0;
+>>>>>>> 2716fafedeae4e1d7865c9c8d3f3906c420f2e28
 }
 .blog-article .info-box .post-info p{
 	color: #464646;
@@ -836,6 +844,23 @@ footer .text-block p {
 .blog-item .info-box {
 	font-size: 12px;
 	padding: 0 0 0 39px;
+}
+.info-box .btn{
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #2e2e2e;
+	text-decoration: none;
+	margin: 2px 0 17px 5px;
+}
+.info-box .btn:before{
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 8px;
+	padding-right: 7px;
+	background: url("../img/article-elements/btn-more.png") 0 0 no-repeat;
 }
 .slider-1{
 	margin: 29px 0 0 0;
