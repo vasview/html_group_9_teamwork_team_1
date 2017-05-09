@@ -5,11 +5,20 @@
 	.slider__img-wrapper {
 		width: 30%;
 	}
+	.slider__img-wrapper img {
+		width: 100%;
+	}
 	.slider-item__midsubrow--bg {
 		width: 60%;
 	}
+	.slider-item__midsubrow--bg .slider__img-wrapper {
+		width: 100%;
+	}
 	.slider-item__midsubrow--sm {
 		width: 30%;
+	}
+	.slider-item__midsubrow--sm .slider__img-wrapper {
+		width: 100%;
 	}
 }
 @media screen and  (max-width:  930px){
