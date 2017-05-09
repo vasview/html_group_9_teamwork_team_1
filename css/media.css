@@ -140,6 +140,10 @@
 		display: block;
 		list-style: none;
 		margin: 0;
+		border: 1px solid #000000;
+	}
+	.menu li:last-of-type {
+    border-right: 1px solid #000000;
 	}
 	.menu li a{
 		display: block;
