@@ -20,7 +20,7 @@ $(document).ready(function(){
 		  	$grid.isotope({ filter: filterValue });
 		});
 		
-		$('.slider-1').slick({
+		$('.slider-block').slick({
     		arrows: true,
    		});
 });
