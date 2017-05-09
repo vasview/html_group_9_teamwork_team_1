@@ -673,7 +673,6 @@ footer .text-block p {
 	margin: 0;
 	display: inline-block;
 }
-
 .slider1 a img{
 	width: 100%;
 	height: auto;
@@ -707,8 +706,6 @@ footer .text-block p {
 	border-style: solid;	
    	position: absolute;
  	bottom: -13px;
-   	margin: 0 0 0 0;
- 	
  } 
  .slick-prev::before{
  	border-width: 0 14px 14px 0;
@@ -720,35 +717,4 @@ footer .text-block p {
 	border-color:#313331 transparent transparent transparent; 	
  	left: 80px;
  }
- .slick-dots{
- 	position: absolute;
-  	top: 39%;
- 	right: 13%;
-  	margin: 0;
-  	padding: 0;	
- }
- .slick-dots li{
- 	display: block;
- 	margin: 6px 0;
- 	padding: 0 ;
- 	height: 15px;
- }
- .slick-dots button{
- 	width: 10px;
- 	height: 10px;
- 	border-radius: 50%;
- 	font-size: 0; 	
- 	line-height: 0;
- 	background: #b2acab;
- 	padding: 0;
- 	margin: 0;
- }
- .slick-dots li.slick-active button{
- 	background: transparent;
- 	border: 1px solid #d3c1ad; 	
- 	width: 15px;
- 	height: 15px;
- 	padding: 0;
- 	margin: 0;
- }
-
+ 
