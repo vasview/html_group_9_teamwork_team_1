@@ -122,6 +122,7 @@
 	}	
 	.menu li a:hover {
 		border-bottom: 2px solid #fff;
+		border: none;
 	}
 	.menu-btn{	
 		width: 100%;
@@ -151,6 +152,9 @@
 		margin: 0;
 		border: 1px solid #000000;
 	}
+	.menu li:hover {
+		background: rgba(255, 255, 255, 1);
+	}
 	.menu li:last-of-type {
     border-right: 1px solid #000000;
 	}
@@ -160,11 +164,8 @@
 		color: #fff;
 		text-decoration: none;
 		text-transform: uppercase;
-		padding: 0;
+		padding: 20px 20px;
 		text-align: center;
-	}
-	.menu li a:hover {
-		border: none;
 	}
 	.menu li:last-child a{
 		border: none;
