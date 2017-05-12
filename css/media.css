@@ -1,4 +1,7 @@
 @media screen and (max-width: 960px) {
+	.slider-block {
+		width: 100%;
+	}
 	.slider__img-wrapper {
 		width: 30%;
 	}
@@ -17,6 +20,12 @@
 	.slider-item__midsubrow--sm .slider__img-wrapper {
 		width: 100%;
 	}
+	/*.slider__txt-block {
+	width: 30%;
+	height: 20%;
+	top: 45%;
+	left: 20%;
+	}*/
 }
 @media screen and  (max-width:  930px){
 	/*.article-blog {    
