@@ -182,7 +182,7 @@ h1,h2,h3{
 .slider-item__row--top {
 	overflow: hidden;
 	max-height: 74px;
-	height: auto;
+	/*height: auto;*/
 	width: 100%;
 	box-sizing: border-box;
 	padding: 0;
@@ -213,8 +213,8 @@ h1,h2,h3{
 .slider-item__row--middle {
 	overflow: hidden;
 	max-height: 299px;
-	height: auto;
-	width: 100%;
+	/*height: 100%;*/
+	width: auto;
 	box-sizing: border-box;
 }
 .slider-item__midsubrow {
@@ -228,6 +228,7 @@ h1,h2,h3{
 .slider-item__midsubrow--bg {
 	max-width: 627px;
 	/*width: 100%;*/
+	width: auto;
 	height: 100%;
 }
 .slider-item__midsubrow--sm {
