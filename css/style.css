@@ -160,7 +160,6 @@ h1,h2,h3{
 .slider-block {
 	max-width: 940px;
 	margin: 30px auto 0;
-	/*position: relative;*/
 	padding: 0 !important;
 }
 .slider-item {
@@ -182,7 +181,6 @@ h1,h2,h3{
 .slider-item__row--top {
 	overflow: hidden;
 	max-height: 74px;
-	/*height: auto;*/
 	width: 100%;
 	box-sizing: border-box;
 	padding: 0;
@@ -213,7 +211,6 @@ h1,h2,h3{
 .slider-item__row--middle {
 	overflow: hidden;
 	max-height: 299px;
-	/*height: 100%;*/
 	width: auto;
 	box-sizing: border-box;
 }
@@ -227,13 +224,11 @@ h1,h2,h3{
 }
 .slider-item__midsubrow--bg {
 	max-width: 627px;
-	/*width: 100%;*/
 	width: auto;
 	height: 100%;
 }
 .slider-item__midsubrow--sm {
 	max-width: 307px;
-	/*width: auto;*/
 	height: 100%;
 }
 .slider-item__midsubrow .slider__img-wrapper {
@@ -296,7 +291,7 @@ h1,h2,h3{
  	width: 92px;
 	height: 74px;
 	position: absolute;
-	top: 35%; /*добавил для стрелок*/
+	top: 35%;
 	border:none;
 	border-top: 2px solid rgba(160, 160, 160, 0.5);
 	font-size: 0;
