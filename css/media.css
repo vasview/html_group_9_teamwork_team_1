@@ -30,13 +30,13 @@
 		margin: 0;
 	}
 	.slider__img-wrapper--toprow {
-		width: 32.6%;
+		width: 32.55%;
 	}
 	.slider__img-wrapper--bottomrow {
-		width: 32.6%;
+		width: 32.55%;
 	}
 	.slider-item__midsubrow--bg {
-		width: 68%;
+		width: 67%;
 	}
 	.slider-item__midsubrow--sm {
 		width: 30.5%;
@@ -81,10 +81,10 @@
 		width: 100%;
 	}
 	.slider__img-wrapper--toprow {
-		width: 32%;
+		width: 32.2%;
 	}
 	.slider__img-wrapper--bottomrow {
-		width: 32%;
+		width: 32.2%;
 	}
 	.slider-item__midsubrow--bg {
 		width: 66%;
