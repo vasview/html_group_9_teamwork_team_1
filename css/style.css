@@ -160,8 +160,11 @@ h1,h2,h3{
 .slider-block {
 	max-width: 940px;
 	margin: 30px auto 0;
-	position: relative;
+	/*position: relative;*/
 	padding: 0 !important;
+}
+.slider-item {
+	position: relative;
 }
 .slider-item__row {
 	margin-bottom: 6px;
@@ -177,8 +180,10 @@ h1,h2,h3{
 	margin-right: 6px;
 }
 .slider-item__row--top {
-	height: 74px;
-	width: auto;
+	overflow: hidden;
+	max-height: 74px;
+	height: auto;
+	width: 100%;
 	box-sizing: border-box;
 	padding: 0;
 }
@@ -206,7 +211,9 @@ h1,h2,h3{
 	display: block;
 }
 .slider-item__row--middle {
-	height: 299px;
+	overflow: hidden;
+	max-height: 299px;
+	height: auto;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -283,7 +290,7 @@ h1,h2,h3{
  	width: 92px;
 	height: 74px;
 	position: absolute;
-	top: 175px;
+	top: 35%; /*добавил для стрелок*/
 	border:none;
 	border-top: 2px solid rgba(160, 160, 160, 0.5);
 	font-size: 0;

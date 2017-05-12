@@ -1,7 +1,4 @@
 @media screen and (max-width: 960px) {
-	.slider-block {
-		transform: scale(0.9);
-	}
 	.slider__img-wrapper {
 		width: 30%;
 	}
