@@ -107,6 +107,9 @@
     	height: 40px;
     	width: 50px;
     	display: none !important;
+	}
+	.slider-item__midsubrow:last-child {
+	margin-left: 12px;
 	}  	 	
 }
 @media screen and  (max-width:  420px){
