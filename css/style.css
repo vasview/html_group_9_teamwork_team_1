@@ -223,7 +223,7 @@ h1,h2,h3{
 	margin: 0;
 }
 .slider-item__midsubrow:last-child {
-	margin-left: 6px;
+	margin-left: 12px;
 }
 .slider-item__midsubrow--bg {
 	max-width: 627px;
